@@ -1,0 +1,93 @@
+*{
+    margin: 0; 
+    text-decoration: none;
+    list-style: none;   
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Re-useable element */
+section{
+   display: grid;
+   grid-template-columns: 1fr 1fr ;
+   margin: 0 0 4% 0;
+} 
+
+h1{font-size: 50px;
+line-height: 110px;}
+
+h3{
+    line-height: 100px;
+}
+span{
+    color: orange;
+}
+p{
+    font-weight:400;
+    color: #696969;
+    margin: 0 0 20px 0;
+}
+img{
+    width: 75%;
+}
+a{
+    padding: 10px 25px;
+    margin: 10px 0 0 0 ;
+   color: #fff;
+   width: 130px;
+   background:linear-gradient(red,tomato);
+   border-radius: 5px;
+   text-align: center;
+}
+
+/* Top banner style start*/
+.top-banner{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+.intro{
+    padding:4% 0% 0 13%;
+}
+
+.top-banner img{
+float: right;
+padding: 2% 12% 0 0;
+}
+
+/* Dream Big Section Code Start */
+.dream-big{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* Expriences section Code Start */
+#expriences{
+    display: block;
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+.expriences{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+.item{
+    margin: 5% 5% 0 10%;
+    box-shadow:5px 5px 5px 5px rgb(202, 196, 196);
+    padding: 4% 0 0 5%;
+    border-left:7px solid;
+    border-image: linear-gradient(red,tomato);
+    border-image-slice:1;
+}
+.item-2{
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice:1;
+}
+
+/* Footer code */
+footer p{
+    text-align: center;
+}
