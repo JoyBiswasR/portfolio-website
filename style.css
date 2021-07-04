@@ -68,7 +68,7 @@ padding: 2% 12% 0 0;
     display: block;
     background-image: url(img/exp-bg.png);
     background-repeat: no-repeat;
-    background-position: center left;
+    background-position: left bottom;
 }
 .expriences{
     display: grid;
@@ -76,7 +76,7 @@ padding: 2% 12% 0 0;
 }
 .item{
     margin: 5% 5% 0 10%;
-    box-shadow:5px 5px 5px 5px rgb(202, 196, 196);
+    box-shadow:10px 10px 30px 10px rgb(202, 196, 196);
     padding: 4% 0 0 5%;
     border-left:7px solid;
     border-image: linear-gradient(red,tomato);
